@@ -16,10 +16,28 @@
 				#could not start watchman; falling back to NodeWatcher for file system events.
 			$brew install watchman
 	
-### Example Project
+### Create Example Project
 
 		$ ng new angular-hello-world
 		
+**index.html**
+	```
+	_1 <!doctype html>
+	2 <html lang="en">
+	3 <head>
+	4 <meta charset="utf-8">
+	5 <title>AngularHelloWorld</title>
+	6 <base href="/">
+	7
+	8 <meta name="viewport" content="width=device-width, initial-scale=1">
+	9 <link rel="icon" type="image/x-icon" href="favicon.ico">
+	10 </head>
+	11 <body>
+	12 <app-root></app-root>
+	13 </body>
+	14 </html>_
+```
+
 
 
 
