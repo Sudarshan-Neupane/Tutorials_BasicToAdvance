@@ -9,8 +9,8 @@
 ### Angular CLI
 
 	- Install Angular
-			$ npm install -g @angular/cli
-			$ ng --version
+			> $ npm install -g @angular/cli
+			> $ ng --version
 	    If you are running in OSX
 			- you need to install watchman.(you might receive this line in the output)
 				#could not start watchman; falling back to NodeWatcher for file system events.
@@ -18,10 +18,11 @@
 	
 ### Create Example Project
 
-		$ ng new angular-hello-world
+		> $ ng new angular-hello-world
 		
 **index.html**
-	```
+```
+
 	 <!doctype html>
 	 <html lang="en">
 	 <head>
@@ -37,6 +38,15 @@
 	</body>
     </html>
 ```
+
+**_<app-root> </app-root>_**
+*The app-root tag is where our application will be rendered*
+*But what is the app-root tag and where does it come from? **app-root is a component that is defined by our Angular application**. In Angular we can define our own HTML tags and give them custom functionality. The app-root tag will be the “entry point” for our application on the page.*
+
+**Running the application**
+ > cd angular_hello_world
+ > ng serve( npm start)
+
 
 
 
