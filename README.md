@@ -22,7 +22,7 @@
 		
 **index.html**
 	```
-	_1 <!doctype html>
+	1 <!doctype html>
 	2 <html lang="en">
 	3 <head>
 	4 <meta charset="utf-8">
@@ -35,7 +35,7 @@
 	11 <body>
 	12 <app-root></app-root>
 	13 </body>
-	14 </html>_
+	14 </html>
 ```
 
 
