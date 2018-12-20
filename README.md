@@ -1,6 +1,6 @@
-### 1. [Getting Started] (https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/angular_getting_started1.md)
+### 1. [Getting Started](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/angular_getting_started1.md)
 
-### 2. [Type Script angular] (https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/Angular_typescript.md)
+### 2. [Type Script angular](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/Angular_typescript.md)
 
 ### ~~~ Tutorial Angular/NPM  ~~~~
 ##NPM commands and getting started:
