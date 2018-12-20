@@ -44,8 +44,12 @@
 *But what is the app-root tag and where does it come from? **app-root is a component that is defined by our Angular application**. In Angular we can define our own HTML tags and give them custom functionality. The app-root tag will be the “entry point” for our application on the page.*
 
 **Running the application**
- > cd angular_hello_world
- > ng serve( npm start)
+ > $cd angular_hello_world
+ 
+ > $ng serve( npm start)
+ 
+**If you want to change the port**
+ > $ng serve --port 9001
 
 
 
