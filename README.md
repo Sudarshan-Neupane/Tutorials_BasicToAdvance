@@ -22,8 +22,7 @@
 		
 **index.html**
 ```
-
-	 <!doctype html>
+ <!doctype html>
 	 <html lang="en">
 	 <head>
 	<meta charset="utf-8">
@@ -50,7 +49,47 @@
  
 **If you want to change the port**
  > $ng serve --port 9001
-
+ 
+ **Create a Component**
+ > $ng generate component hello-world
+ 
+:+1: *Notice that we suffix our TypeScript file with .ts instead of .js The problem is our browser
+     doesn’t know how to interpret TypeScript files. To solve this gap, the **ng serve** command
+     live-compiles our .ts to a .js file automatically.*
+ 
+ ```
+    1 import { Component, OnInit } from '@angular/core';
+    2
+    3 @Component({
+    4 selector: 'app-hello-world',
+    5 templateUrl: './hello-world.component.html',
+    6 styleUrls: ['./hello-world.component.css']
+    7 })
+    8 export class HelloWorldComponent implements OnInit {
+    9
+    10 constructor() { }
+    11
+    12 ngOnInit() {
+    13 }
+    14
+    15 }
+ ```
+ **_@Component_**
+   ``` 
+   @Component is called the *decorators*. When we use @Component on the HelloWorld class, we are “decorating” HelloWorld as a Component.We want to be able to use this component in our markup by using a <app-hello-world> tag. To do
+    that, we configure the @Component and specify the selector as app-hello-world.
+   ```
+ ###### Load Our new Component(How do we load our page?)
+ In ourder to add new component tag to a template that is already rendered. Open the app.component.html 
+ ```
+      <h1>
+       {{title}}
+        <app-hello-world></app-hello-world>
+     </h1>
+ ``` 
+ Here, hello world component is loaded on the app component. 
+ 
+ 
 
 
 
