@@ -50,7 +50,7 @@
 **If you want to change the port**
  > $ng serve --port 9001
  
- ####Create a Component
+ #### Create a Component
  > $ng generate component hello-world
  
 :+1: *Notice that we suffix our TypeScript file with .ts instead of .js The problem is our browser
