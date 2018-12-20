@@ -1,11 +1,13 @@
 ## ~~~ Tutorial NPM NG ~~~~
 ##NPM commands and getting started:
+
 	- npm install(5.6/6.5.0  mine latest)
 	- npm start
 	
 	- npm install -g typescript
 	
-##Angular CLI
+### Angular CLI
+
 	- Install Angular
 			$ npm install -g @angular/cli
 			$ ng --version
@@ -14,7 +16,8 @@
 				#could not start watchman; falling back to NodeWatcher for file system events.
 			$brew install watchman
 	
-##Example Project
+### Example Project
+
 		$ ng new angular-hello-world
 		
 
