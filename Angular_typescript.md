@@ -37,10 +37,48 @@
         var something:any='as String'
         something=1;
         something=[1,2,3]
+      
+      *VOID*
+      
+      Using Void means there is no type expected. This is usually in function with no return value;
+        
+        function setName(name:string):void
+            {
+            this.fullName = name;
+           }
+           
+  - *Class*
+        
+        Class may have properties, methods and constructors.
+        
+         class Vehicle{
+         
+            firstName:String="sudarshan";
+            /** 
+              type veriables here 
+             **/
+             getData(){
+             console.log("Hello here",this.firstName)
+             }
+         }
+       
+       *CONSTRUCTORS*
+       Constructor is executed when a new instance of the class is being created.
+        
+            Class Vehicle{
+               constructor(){
+                    /* business logic here*/
+               }
+            }
+            
+            var v = new Vehicle();// this will print the constructor.
+        
+       :np: In typescript you can have only **one constructor per class**  
+       
+   
         
 
 
   
   
-
 
