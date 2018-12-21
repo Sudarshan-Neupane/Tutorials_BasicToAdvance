@@ -2,6 +2,9 @@
 
 ### 2. [Type Script angular](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/Angular_typescript.md)
 
+### 3. [Angular Form](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/Angular_form)
+
+
 ### ~~~ Tutorial Angular/NPM  ~~~~
 ##NPM commands and getting started:
 
