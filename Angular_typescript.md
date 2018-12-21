@@ -73,7 +73,7 @@
             
             var v = new Vehicle();// this will print the constructor.
         
-       :us: In typescript you can have only **one constructor per class**  
+      :pray: In typescript you can have only **one constructor per class**  
        
    
         
