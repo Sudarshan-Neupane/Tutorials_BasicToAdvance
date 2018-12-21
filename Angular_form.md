@@ -1,8 +1,7 @@
 #### Form 
 **FormControls and FormGroups**
-   
-     ```
-        FormControl
+```
+     FormControl
         -  A formControl represent the single field. it is the smallest unit of the Angular form.
         - It encapsulate the field's value.
         // create a new FormControl with the value "Nate"
@@ -11,15 +10,15 @@
                 ........
                 <input type="text" [formControl]="name"/>
         
-        Form Group
+     Form Group
             1 let personInfo = new FormGroup({
             2   firstName: new FormControl("Nate"),
             3   lastName: new FormControl("Murray"),
             4   zip: new FormControl("90210")
             5 })  
               
-     ```
-    **Loading the FormsModule**
+```
+**Loading the FormsModule**
     - import { FormsModule,  ReactiveFormsModule  }from '@angular/forms';
 
 
@@ -35,7 +34,7 @@
   ```
 :thumbsup: ** what does inject means?
 
-#Dependency Injection
+## Dependency Injection
 
         
 
