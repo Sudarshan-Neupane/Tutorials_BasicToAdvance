@@ -1,4 +1,4 @@
-## AMS
+## AWS
 
 **What is aws?**
 
