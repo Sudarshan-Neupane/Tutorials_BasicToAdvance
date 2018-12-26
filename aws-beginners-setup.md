@@ -112,7 +112,7 @@ Search Ec2 and click lunch instance.
 
 
 
-## AWS services and there function
+## AWS services and their functionality
 
 ![AWS Services](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/images/Aws_services.JPG) 
 
