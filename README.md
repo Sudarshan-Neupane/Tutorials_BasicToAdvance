@@ -3,6 +3,7 @@
 ### 2. [Type Script angular](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/Angular_typescript.md)
 
 ### 3. [Angular Form/Dependency Injection](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/Angular_form.md)
+### 4. [AWS](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/aws-beginners-setup.md)
 
 
 ### ~~~ Tutorial Angular/NPM  ~~~~
