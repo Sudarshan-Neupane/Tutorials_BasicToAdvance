@@ -4,6 +4,7 @@
 
 ### 3. [Angular Form/Dependency Injection](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/Angular_form.md)
 ### 4. [AWS](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/aws-beginners-setup.md)
+### 5. [Localhost http to https setting](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/https-setting.md)
 
 
 ### ~~~ Tutorial Angular/NPM  ~~~~
