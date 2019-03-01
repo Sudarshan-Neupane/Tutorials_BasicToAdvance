@@ -1,5 +1,7 @@
----
-  public static String toUnicodeString(String in) {
+
+  ### Output json encode
+---  
+    public static String toUnicodeString(String in) {
         if (in == null)
             return null;
         char[] chars = in.toCharArray();
@@ -10,10 +12,9 @@
         }
         return out.toString();
     }
-  ---
-  
-  ---
-   public static String convertCharToUnicodeString(char c) {
+--- 
+---
+    public static String convertCharToUnicodeString(char c) {
         return String.format("\\u%04x", (int) c);
     }
-  ---
+---
