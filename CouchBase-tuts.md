@@ -4,7 +4,6 @@
 
  __1. Import json to the Couchbase command__ 
  
-===
     C:\Users\Downloads\study- couchabase\CB110-Data>cbimport json -c http://127.0.0.1:8091 -u Administrator -p admin@123 -b couchmusic2 -f lines -d file://couchmusic2-userprofiles.json -t 2 -g %type%::%username%
 
 
