@@ -6,6 +6,7 @@
 ### 4. [AWS](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/aws-beginners-setup.md)
 ### 5. [Localhost http to https setting](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/https-setting.md)
 ### 6. [Output Json encodeing](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/json-encoding.md)
+### 7. [Couchbase Basic N1QL tuts](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/CouchBase-tuts.md)
 
 
 ### ~~~ Tutorial Angular/NPM  ~~~~
