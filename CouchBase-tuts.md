@@ -1,4 +1,6 @@
 ### Couchbase cheat sheet ###
+###### Query schema based on [THIS PDF](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/images/couchmusic2-data-model.pdf)
+
 
  __1. Import json to the Couchbase command__ 
  
