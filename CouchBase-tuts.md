@@ -60,7 +60,7 @@ Before create a index - the response time is 25s. if we create an index for emai
         CREATE INDEX idx_state_active on couchmusic2(address.state) where status="active";
  
         
-####4. Querying ranges, Ordering results and explaining query details
+#### 4. Querying ranges, Ordering results and explaining query details
 
 **-AND , Order by**
 
@@ -85,7 +85,7 @@ Before create a index - the response time is 25s. if we create an index for emai
         select artist,title,genre,ratings from couchmusic2 where type="track" 
         and ARRAY_LENGTH(ratings) >=3 and every r in ratings satisfies r.rating=5 END;
      
-####5. Joining documents by any related documents value,using ANSI joins
+#### 5. Joining documents by any related documents value,using ANSI joins
      Index (at minimum) the right side document field to be joined
      -----------
      SELECT userprofile.firstName, userprofile.lastName, playlist.name,
