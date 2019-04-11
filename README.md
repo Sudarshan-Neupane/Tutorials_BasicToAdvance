@@ -173,12 +173,12 @@ git push -u origin master
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
-
-###cheat seet ~~
+=============================================
+# cheat seet ~~
 
 * Sudarshan Neupane
 
-## VIBE Visibility Service(UI)
+## UI 
  I am using  angular 6 and node 8.11 for building this project. To run this project on our local machine first we need to install node and angular. 
  The command which we need to install the project are as follows. Go to the UI folder and use the following command.
  1. npm install (one time)
