@@ -172,3 +172,45 @@ git remote add origin https://github.com/Sudarshan-Neupane/npm_angular_tuts_comm
 git push -u origin master
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+###cheat seet ~~
+
+* Sudarshan Neupane
+
+## VIBE Visibility Service(UI)
+ I am using  angular 6 and node 8.11 for building this project. To run this project on our local machine first we need to install node and angular. 
+ The command which we need to install the project are as follows. Go to the UI folder and use the following command.
+ 1. npm install (one time)
+ 2. npm install -g @angular/cli(one time)
+ 3. ng serve (npm start)
+ 4. ng build
+ 
+ command line link url [angular cli] https://cli.angular.io/
+ 
+ ##### list of important file for openId setup and web service call
+ * angular.json -- list of all the dependency file.
+ * app-routing.module.ts >> browser routing setup
+ * app.component.ts >> environment setup i.e which environment we need to point
+ * authentication>auth.config.dev/prod >> This file is use for storing client Id and redirect URL. 
+ * vibe-tracking.service.ts (need to change _urlPrefix to run local machine)
+ 
+ ##### For running angular and spring project together need to start.
+ * ng build ng
+    * setup angularjs output path "outputPath": "../src/main/resources/static",
+    * we are setting outputPath: ../src/main/resources/static which is inside the spring project.
+
+##### Proxy config
+   * npm config
+    * npm config set <key> <value>
+        * .npmrc  file created inside C:\Users\HHQ2VM
+            - registry=http://registry.npmjs.org/
+            - https-proxy=http://tttee:Pass@**.**.com:8080/ 
+            - proxy=http://tteee:pass@**.*.com:8080/
+            - http://ttee:pass@**.*.com:8080/=
+ 
+####Chart js
+  * npm install chart.js --save
+### Generate new component
+  * ng g c refNumQuery
+  
