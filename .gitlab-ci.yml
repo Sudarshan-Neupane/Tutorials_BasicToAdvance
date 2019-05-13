@@ -1,0 +1,13 @@
+image: node:10.15.3
+stages:
+  - deployToAWS
+
+deployToAWS:
+  only:
+    - feature-CICD
+  stage: deployToAWS
+  script:
+    - echo " CICD running in deploy AWS"
+    - chmod +x ./deploy/deploy.sh
+    - bash deploy/deploy.sh "feature-CICD" $GIT_USERNAME:$GIT_PASSWORD $EC2_SSH_CICD_TEST
+    - exit
