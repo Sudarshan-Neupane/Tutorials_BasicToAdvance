@@ -2,7 +2,7 @@ XML to object mapper.
 
 ## convert String to the object without root element
 ---
-    public void createDebitResponse(String xmlpayload) {
+    public void createResponse(String xmlpayload) {
         try {
             JAXBContext context = JAXBContext.newInstance(Test.class);
             Unmarshaller jaxbUnmarshaller = context.createUnmarshaller();
