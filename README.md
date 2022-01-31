@@ -214,5 +214,4 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 ####Chart js
   * npm install chart.js --save
 ### Generate new component
-  * ng g c refNumQuery
-### [personal website] http://sudarshanneupane.com.np.s3-website.us-east-2.amazonaws.com/   
+  * ng g c refNumQuery  
