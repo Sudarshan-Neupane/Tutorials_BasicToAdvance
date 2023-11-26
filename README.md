@@ -9,6 +9,7 @@
 ### 7. [Couchbase Basic N1QL tuts](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/CouchBase-tuts.md)
 ### 8. [How to create a gitlab EC2 CICD](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/blob/master/Createcicd.md)
 ### 9. [AWS Lamda put and get data to Dynamodb](https://github.com/Sudarshan-Neupane/npm_angular_tuts_commands/tree/master/nodejs_lambda-dynamodb-put:get)
+### 10.[System Design tutorial book](https://github.com/Sudarshan-Neupane/Tutorials_BasicToAdvance/blob/bc8a233fcffc84beeda14ad04e488521c7a542e7/d60fa09a-c4b5-4e31-9dbd-5d049c6c8f49.pdf_compressed.pdf)
 
 
 ### ~~~ Tutorial Angular/NPM  ~~~~
